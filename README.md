@@ -12,3 +12,8 @@ Life is beautiful, smile :D
 
 * 3 : Save the file.
 * 4 : upload it And enjoy your life. 
+
+# Demos 
+
+* (On codepen)[http://codepen.io/LukyVj/pen/EiHjo]
+* (On bullg.it)[http://bullg.it/smiley.css/]
