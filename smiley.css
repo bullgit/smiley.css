@@ -16,6 +16,7 @@ html:before {
   width: 7%;
   height: 10vw;
   border-radius: 100%;
+  background: -webkit-radial-gradient(black 15%, white 15%);
   background: radial-gradient(black 15%, white 15%);
   left: 0;
   margin: 15vw 40%; }
@@ -23,12 +24,14 @@ html:after {
   width: 7%;
   height: 10vw;
   border-radius: 100%;
+  background: -webkit-radial-gradient(black 15%, white 15%);
   background: radial-gradient(black 15%, white 15%);
   left: 0;
   margin: 15vw 55%; }
 html body:before {
   width: 22%;
   height: 20vw;
+  background: -webkit-linear-gradient(229deg, #f1c40f 50%, black 50%, black 51%, white 51%, white 58%, black 58%);
   background: linear-gradient(-139deg, #f1c40f 50%, black 50%, black 51%, white 51%, white 58%, black 58%);
   -webkit-transform: rotate(-40deg);
   border-radius: 100%;
