@@ -15,5 +15,5 @@ Life is beautiful, smile :D
 
 # Demos 
 
-* (On codepen)[http://codepen.io/LukyVj/pen/EiHjo]
-* (On bullg.it)[http://bullg.it/smiley.css/]
+* !(On codepen)[http://codepen.io/LukyVj/pen/EiHjo]
+* !(On bullg.it)[http://bullg.it/smiley.css/]
