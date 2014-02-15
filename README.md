@@ -6,7 +6,9 @@ Life is beautiful, smile :D
 
 #How to ? 
 
-Open your favorite code editor, open your index.html file.
-add    <link rel="stylesheet" type="text/css" href="path/to/smiley.min.css" />    to the head of your document. 
+* 1 : Open your favorite code editor, open your `index.html` file.
+* 2 : add this to the head of your document : 
+````<link rel="stylesheet" type="text/css" href="path/to/smiley.min.css" />````. 
 
-And enjoy your life. 
+* 3 : Save the file.
+* 4 : upload it And enjoy your life. 
