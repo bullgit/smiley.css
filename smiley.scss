@@ -2,7 +2,9 @@ $full: 100%;
 $c: #f1c40f;
 
 $s:5%;
-
+@mixin eyes(){
+	background:radial-gradient(#000 15%, #fff 15%);
+}
 html,body {
     width: $full;
     height: $full;
@@ -25,15 +27,15 @@ html{
 		width:$s*1.4;
 		height:10vw;
 		border-radius:100%;
-		background:#000;
+		@include eyes();
 		left:0;
-		margin:15vw 40%;
+		margin:15vw 40%; 
 	}
 	&:after{
 		width:$s*1.4;
 		height:10vw;
 		border-radius:100%;
-		background:#000;
+		@include eyes();
 		left:0;
 		margin:15vw 55%;
 	}
@@ -43,11 +45,16 @@ body{
 	&:before{
 		width:$s*4.4 ;
 		height:10vw*2;
-		background:linear-gradient($c 50%,#000 50%);
+		background:linear-gradient(-139deg,$c 50%,#000 50%,#000 51%,#fff 51%,#fff 58%,#000 58%);
+		-webkit-transform:rotate(-40deg);
 		border-radius:100%;
 		right:0 ;
 		left:0;
 		margin:22vw auto;
+		border-top:.2em solid $c;
+		border-right:.2em solid $c;
+		border-left: .2em solid #000;
+		border-bottom: .2em solid #000;
 	}
 
 	 * {

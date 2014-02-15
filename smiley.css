@@ -16,24 +16,29 @@ html:before {
   width: 7%;
   height: 10vw;
   border-radius: 100%;
-  background: #000;
+  background: radial-gradient(black 15%, white 15%);
   left: 0;
   margin: 15vw 40%; }
 html:after {
   width: 7%;
   height: 10vw;
   border-radius: 100%;
-  background: #000;
+  background: radial-gradient(black 15%, white 15%);
   left: 0;
   margin: 15vw 55%; }
 html body:before {
   width: 22%;
   height: 20vw;
-  background: linear-gradient(#f1c40f 50%, black 50%);
+  background: linear-gradient(-139deg, #f1c40f 50%, black 50%, black 51%, white 51%, white 58%, black 58%);
+  -webkit-transform: rotate(-40deg);
   border-radius: 100%;
   right: 0;
   left: 0;
-  margin: 22vw auto; }
+  margin: 22vw auto;
+  border-top: 0.2em solid #f1c40f;
+  border-right: 0.2em solid #f1c40f;
+  border-left: 0.2em solid black;
+  border-bottom: 0.2em solid black; }
 html body * {
   position: absolute;
   display: none;
