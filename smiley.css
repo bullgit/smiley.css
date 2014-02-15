@@ -10,30 +10,30 @@ html, body {
     display: block !important;
     background: #f1c40f;
     z-index: 9999999999999999;
-    position: fixed; }
+    position: absolute; }
 
 html:before {
-  width: 5.6em;
-  height: 5.6em;
+  width: 7%;
+  height: 10vw;
   border-radius: 100%;
   background: #000;
   left: 0;
-  margin: 15em 40%; }
+  margin: 15vw 40%; }
 html:after {
-  width: 5.6em;
-  height: 5.6em;
+  width: 7%;
+  height: 10vw;
   border-radius: 100%;
   background: #000;
-  right: 0;
-  margin: 15em 40%; }
+  left: 0;
+  margin: 15vw 55%; }
 html body:before {
-  width: 17.6em;
-  height: 16em;
+  width: 22%;
+  height: 20vw;
   background: linear-gradient(#f1c40f 50%, black 50%);
   border-radius: 100%;
   right: 0;
   left: 0;
-  margin: 18em auto; }
+  margin: 22vw auto; }
 html body * {
   position: absolute;
   display: none;
